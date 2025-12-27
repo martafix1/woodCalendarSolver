@@ -14,6 +14,8 @@ Works, takes rougly 2h per solution (~64M placed pieces)
 Uses `solver_StaticC_gen.py` to generate a header file called 'board_data.h'. This is then used by the actuall solver, currently `solve_v2.c`. 
 The `solver_StaticC_main.py` was supposed to auto generate, compile and run all but setting the compilers sucks so WIP.
 
+The average time per solution is 0.8s :D. 
+
 ## How to use
 Set the uncovered positions in the `solver_StaticC_gen.py` file, line 87 at time of writing this: 
 `uncovered = [(1,5),(5,5),(7,5)]  # 0-based row,col`
